@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Navigation">
+
+	<executable package_path="tb3_flexbe_behaviors.navigation_sm" class="NavigationSM" />
+	<tagstring></tagstring>
+	<author>Alexander Lopez</author>
+	<date>Wed Dec 01 2021</date>
+	<description>
+		Navigation of a mobile robot
+	</description>
+
+
+	<!-- Contained Behaviors -->
+	<contains name="Go_to_goal" />
+
+	<!-- Available Parameters -->
+	<params>
+
+		<param type="numeric" name="x_des" default="1.0" label="x_des" hint="Sets the x_des">
+			<min value="-5.0" />
+			<max value="5.0" />
+		</param>
+
+		<param type="numeric" name="y_des" default="1.0" label="y_des" hint="Sets the y_des">
+			<min value="-5.0" />
+			<max value="5.0" />
+		</param>
+
+		<param type="numeric" name="tetha_des" default="0.75" label="tetha_des" hint="Sets the tetha_des">
+			<min value="-3.14" />
+			<max value="3.1416" />
+		</param>
+
+	</params>
+
+
+</behavior>

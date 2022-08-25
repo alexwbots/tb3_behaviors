@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Locations">
+
+	<executable package_path="tb3_flexbe_behaviors.locations_sm" class="LocationsSM" />
+	<tagstring></tagstring>
+	<author>Alexander Lopez</author>
+	<date>Wed Dec 01 2021</date>
+	<description>
+		Locations
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+	<params>
+
+		<param type="text" name="loc" default="pose3" label="loc" hint="Sets the loc" />
+
+	</params>
+
+
+</behavior>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Algo">
+
+	<executable package_path="tb3_flexbe_behaviors.algo_sm" class="AlgoSM" />
+	<tagstring></tagstring>
+	<author>assdasd</author>
+	<date>Wed Dec 01 2021</date>
+	<description>
+		asdfas
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+	<params>
+
+		<param type="numeric" name="value" default="1.0" label="value" hint="Sets the value">
+			<min value="0" />
+			<max value="5.0" />
+		</param>
+
+		<param type="numeric" name="value2" default="0.75" label="value2" hint="Sets the value2">
+			<min value="0" />
+			<max value="3.1416" />
+		</param>
+
+	</params>
+
+
+</behavior>

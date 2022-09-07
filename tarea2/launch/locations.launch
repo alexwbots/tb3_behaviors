@@ -1,0 +1,7 @@
+<launch>
+
+  <node pkg="tf" type="static_transform_publisher" name="pose3_location" args="-2.0 -0.5 0.0 0.0 0.0 0.0 map pose3 10"/>
+  <node pkg="tf" type="static_transform_publisher" name="pose2_location" args="0.0 2.0 0.0 0.0 0.0 0.0 map pose2 10"/>
+  <node pkg="tf" type="static_transform_publisher" name="pose1_location" args="2.0 0.5 0.0 0.0 0.0 0.0 map pose1 10"/>
+
+</launch>

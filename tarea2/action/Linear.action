@@ -1,0 +1,5 @@
+float32 posicion_deseada
+---
+float32 posicion_resultante
+---
+float32 posicion_feedback

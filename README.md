@@ -14,11 +14,11 @@ $ catkin_make
 
 Crear un paquete inicial de estados y comportamientos:
 
-´´´
+```
 $ cd catkin_ws/src
 $ rosrun flexbe_widget create_repo tutorial
 $ cd ..
 $ catkin_make
-´´´
+```
 
 

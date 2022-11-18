@@ -21,4 +21,14 @@ $ cd ..
 $ catkin_make
 ```
 
+Para ejecutar Flexbe:
 
+```
+$ roslaunch flexbe_app flexbe_full.launch
+```
+
+Simulación de robot en un mundo vacio:
+
+```
+$ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+```

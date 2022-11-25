@@ -11,9 +11,9 @@ class MoveBaseState(EventState):
     """
     Navigates a robot to a desired position and orientation using move_base.
 
-    -- x_deseado 	    float	Amount of time to wait in seconds.
-    -- y_deseado 	    float	Amount of time to wait in seconds.
-    -- theta_deseado 	float	Amount of time to wait in seconds.
+    -- x_deseado 	    float	Desired x position relavite to the map.
+    -- y_deseado 	    float	Desired y position relavite to the map.
+    -- theta_deseado    float	Desired rotation relavite to the map.
 
     <= arrived                  Navigation to target pose succeeded.
     <= failed                   Navigation to target pose failed.
